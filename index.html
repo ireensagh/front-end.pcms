@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programs and Clips</title>
+    <style>
+      /* Styles for the page layout */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+      }
+      h1 {
+        margin: 0;
+      }
+      nav {
+        background-color: #ddd;
+        padding: 10px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      main {
+        margin: 10px;
+      }
+      section {
+        margin-bottom: 20px;
+      }
+      h2 {
+        margin-top: 0;
+      }
+      ul.clips {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul.clips li {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        display: flex;
+      }
+      ul.clips li img {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+      }
+      ul.clips li .clip-info {
+        flex-grow: 1;
+      }
+      ul.clips li .clip-controls {
+        display: flex;
+        align-items: center;
+      }
+      ul.clips li audio {
+        margin-top: 10px;
+        width: 100%;
+      }
+      button {
+        background-color: #ddd;
+        border: none;
+        padding: 5px 10px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      button.active {
+        background-color: #333;
+        color: white;
+      }
+
+      /* Styles for responsive layout */
+      @media screen and (max-width: 600px) {
+        nav li {
+          display: block;
+          margin-right: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Programs and Clips</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">All Programs</a></li>
+        <li><a href="#">My Favorites</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Programs</h2>
+        <ul>
+          <li>
+            <h3>Program Name 1</h3>
+            <p>Description of program 1</p>
+            <p>Author: Author Name 1</p>
+            <img src="program-artwork.jpg" alt="Program Artwork">
+          </li>
+          <li>
+            <h3>Program Name 2</h3>
+            <p>Description of program 2</p>
+            <p>Author: Author Name 2</p>
+            <img src="program-artwork.jpg" alt="Program Artwork">
+          </li>
+          <!-- Add more program items as needed -->
+        </ul>
+      </section>
+      <script src= "app.js>"</script>
+      <section>
+        <h2>Clips</h2>
+        <ul class="clips">
+          <li>
+            <img src="clip-thumbnail.jpg" alt="Clip Thumbnail">
+            <div class="clip-info">
+              <h3>Clip Title 1</h
