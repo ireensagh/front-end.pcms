@@ -1,0 +1,54 @@
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* .programs li {
+    display: flex;
+    background-color: #963737;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    max-width: 400px;
+    text-align: center;
+  } */
+  img {
+    width: 10%;
+  }
+  button {
+    background-color: #2974e6; /* set button background color */
+    color: white; /* set button text color */
+    border: none; /* remove button border */
+    border-radius: 5px; /* set button border radius */
+    padding: 10px 20px; /* add padding for spacing */
+    font-size: 16px; /* set button text size */
+    cursor: pointer; /* add cursor hover effect */
+    transition: background-color 0.3s ease; /* add smooth hover transition */
+  }
+  
+  button:hover {
+    background-color: #66c0dc; /* set button hover background color */
+  }
+  
+  button a {
+    text-decoration: none; /* remove underline from link */
+    color: white; /* set link text color */
+  }
+  
+  button:focus {
+    outline: none; /* remove focus outline */
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #4CAF50; /* add focus border */
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .programs li {
+      width: 100%;
+    }
+  }
+  
